@@ -6,9 +6,9 @@ import Link from 'next/link';
 import { useForm } from 'react-hook-form';
 import z from 'zod';
 
-import { Button } from '../../components/ui/button';
+import { Button } from './ui/button';
 
-import { Checkbox } from '../../components/ui/checkbox';
+import { Checkbox } from './ui/checkbox';
 import {
   Form,
   FormControl,
@@ -16,8 +16,8 @@ import {
   FormItem,
   FormLabel,
   FormMessage,
-} from '../../components/ui/form';
-import { Input } from '../../components/ui/input';
+} from './ui/form';
+import { Input } from './ui/input';
 
 export default function LoginPage() {
   const formSchema = z.object({

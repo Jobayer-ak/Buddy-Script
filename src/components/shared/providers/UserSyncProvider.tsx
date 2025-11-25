@@ -2,7 +2,7 @@
 import { setUserProfile } from '@/redux/features/user/userSlice';
 import { useSession } from 'next-auth/react';
 import { useEffect } from 'react';
-import { useAppDispatch } from '../../../../redux/hook/hook';
+import { useAppDispatch } from '../../../redux/hook/hook';
 
 export default function UserSyncProvider({
   children,
